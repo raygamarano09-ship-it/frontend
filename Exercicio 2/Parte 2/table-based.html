@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - Table Layout</title>
+</head>
+<body>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="15">
+
+        <!-- CABEÇALHO -->
+        <tr>
+            <td colspan="2" id="cabeçalho">
+                <h1>Cabeçalho</h1>
+
+                <nav>
+                    <a href="#inicio">Início</a> |
+                    <a href="#cont-secundario">Meio</a> |
+                    <a href="#fim">Fim</a>
+                </nav>
+            </td>
+        </tr>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <tr id="inicio">
+            <td colspan="2">
+                <h1>Título</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quibusdam odio placeat delectus, quaerat, maiores iusto
+                    incidunt quasi atque dolore optio quidem architecto
+                    distinctio. Explicabo quos ut suscipit accusamus id corrupti?
+                </p>
+            </td>
+        </tr>
+
+        <!-- IMAGEM E TEXTO -->
+        <tr>
+            <td width="40%">
+                <img
+                    src="https://www.bing.com/th/id/OIP.IW10CWI2Ais1bOsuaLdSDAHaEK?w=193&h=135&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2"
+                    alt="Imagem ilustrativa"
+                    width="100%"
+                >
+            </td>
+
+            <td width="60%">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime suscipit excepturi rem enim non unde magnam?
+                    Aspernatur id, atque quia alias vero cupiditate amet ullam
+                    culpa, cumque laborum doloribus reiciendis.
+                </p>
+            </td>
+        </tr>
+
+        <!-- CONTEÚDO SECUNDÁRIO -->
+        <tr id="cont-secundario">
+            <td colspan="2">
+                <h2>Título da aula</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eius modi aspernatur, repudiandae repellat natus tempore
+                    iste nulla quis exercitationem aliquam, tenetur aut.
+                    Ducimus molestiae sequi dolorem expedita cupiditate
+                    perspiciatis ipsam.
+                </p>
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD3jpkELXXO34AiXzIOpBfd4E5maTHGRQh2gV3FTbLag&s=10"
+                    alt="Imagem da aula"
+                    width="50%"
+                >
+            </td>
+        </tr>
+
+        <!-- RODAPÉ -->
+        <tr id="fim">
+            <td width="60%">
+                <h2>FIM DA PÁGINA</h2>
+                <h3>Feito por Gama</h3>
+            </td>
+
+            <td width="40%">
+                <a href="#">WhatsApp</a>
+                <br><br>
+                <a href="formulario.html">Contato para dúvida</a>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
