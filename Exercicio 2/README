@@ -1,1 +1,7 @@
+1. Diferença entre div e HTML semântico: A tag div é usada para organizar elementos de uma página, mas não possui um significado específico. Já o HTML semântico utiliza tags que indicam a função de cada parte da página, como cabeçalho, menu, conteúdo principal e rodapé.
 
+2. Exemplo prático com blocos genéricos: Podemos usar várias tags div para organizar o nome de uma loja, o menu de navegação, a lista de produtos e o rodapé. Porém, essas tags não explicam qual é a função de cada parte do site.
+
+3. Exemplo prático com blocos semânticos: Podemos usar as tags header para o cabeçalho, nav para o menu, main para o conteúdo principal e footer para o rodapé. Assim, o código fica mais organizado e fácil de entender.
+
+4. Conclusão: A principal diferença é que a div serve apenas para agrupar elementos, enquanto as tags semânticas indicam o significado do conteúdo, facilitando a manutenção do código e a acessibilidade do site.
